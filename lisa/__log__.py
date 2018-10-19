@@ -20,3 +20,10 @@ IndentationError: unexpected indent
      ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Fri Oct 19 2018 11:43:59.839 GMt-0300 (Horário Padrão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 4
+  O diário da barbie = Cena(img ="http://1.bp.blogspot.com/-aGwacYjRKw8/T-St9kEVvMI/AAAAAAAAAvs/ximTg6O8XUA/s1600/ESCENARIOS29+%282%.jpg")
+     ^
+SyntaxError: invalid syntax
+'''},
