@@ -8,3 +8,5 @@ cenaTeatro = Cena(img ="http://1.bp.blogspot.com/-aGwacYjRKw8/T-St9kEVvMI/AAAAAA
            style = dict(left=150, top=60,width=60, height=200))
     goku.entra(cenaTeatro)
     cena
+    História
+    
