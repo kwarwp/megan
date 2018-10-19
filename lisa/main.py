@@ -1,9 +1,9 @@
 # Carol
 from _spy.vitollino.main import Cena, Elemento, Texto
-Barbie ="https://i.ytimg.com/vi/jEjtNGZnsak/hqdefault.jpg"
-O diário da barbie = Cena(img ="http://1.bp.blogspot.com/-aGwacYjRKw8/T-St9kEVvMI/AAAAAAAAAvs/ximTg6O8XUA/s1600/ESCENARIOS29+%282%.jpg")
+Barbie =
+Odiariodabarbie = Cena(imghttp://cf2.imgobject.com/t/p/original/iMT2XJgzSKjDfVrIi3pO35UcbMc.jpg
     Barbie= Elemento(img, 
-           tit ="Goku",
+           tit = Tifany
            style = dict(left=150, top=60,width=60, height=200))
     Barbie=(cenaTeatro)
     cena
