@@ -90,3 +90,10 @@ SyntaxError: invalid syntax
                                   ^
 SyntaxError: invalid syntax
 '''},
+{'date': 'Tue Oct 20 2009 02:31:14.222 GMt-0200 (Horário de Verão de Brasília) -X- SuPyGirls -X-',
+'error': '''
+ module <string> line 12
+  THOR = Elemento (img =Thor,tit "Capitão America",Style =dict (left=150,top=160,width=60,height=200))
+                                  ^
+SyntaxError: invalid syntax
+'''},
