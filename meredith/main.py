@@ -9,11 +9,11 @@ def funcoes ( ):
     Campo = Cena (img =Campo)
     Campo.direita = Paisagem
     Paisagem.esquerda = Campo
-    Thor = Elemento (img = Thor,tit "THOR",Style=dict(left=150,top=160,width=60,height=200))
+    THOR = Elemento (img =Thor,tit "Capitão",Style =dict (left=150,top=160,width=60,height=200))
     Thor.entra(Paisagem)
     eThor=Texto(Paisagem,"Olá, vim de Asgard e caí nessa praia. Sou Thor, Deus do Trovão e filho de Odin")
     Thor=eThor.vai
-    Tiana = Elemento (img = Tiana,tit "Tiana",Style=dict(left=150,top=160,width=60,height=200))
+    Tiana = Elemento (img =Tiana,tit "Tiana",Style=dict(left=150,top=160,width=60,height=200))
     Tiana.entra(Campo)
     eTiana=Texto(Campo,"Oi, me chamo Tiana e estou a procura do meu príncipe encantado.Você pode me ajudar?")
     Tiana=eTiana.vai
