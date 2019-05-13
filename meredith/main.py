@@ -17,3 +17,6 @@ def funcoes ( ):
     Tiana.entra(Campo)
     eTiana=Texto(Campo,"Oi, me chamo Tiana e estou a procura do meu príncipe encantado.Você pode me ajudar?")
     Tiana=eTiana.vai
+    
+    Campo.vai()
+    funcoes()
