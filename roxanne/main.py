@@ -2,8 +2,8 @@
 
 from _spy.vitollino.main import Cena, Elemento, STYLE
 
-#STYLE["width"] = 800
-#STYLE["height"] = "600px"
+STYLE["width"] = 800
+STYLE["height"] = "600px"
 
 IMAGEM = "https://img.freepik.com/free-vector/retro-styled-pattern-background_1048-6593.jpg"
 PORTAO_BRONZE = "https://precoimbativel.net/494016-large_default/portao-pedonal-philadelphia-em-aluminio-a-medida.jpg"
@@ -12,9 +12,16 @@ PEAO = "https://lojagrow.vteximg.com.br/arquivos/ids/168597-1000-1000/Peao-Grow-
 
 class IlhaProibida:
     def __init__(self):
-         oceano = Cena(imagem).vai()
-         portao = Elemento(PORTAO_BRONZE, x=10, y=10, w=100, h=100, tit="Portao de Bronze", cena=oceano)
+         oceano = Cena(IMAGEM).vai()
+         portao = Elemento(PORTAO_BRONZE, x=10, y=20, w=100, h=100, tit="Portao de Bronze", cena=oceano)
          palacio = Elemento(PALACIO_CORAL, x=120, y=30, w=100, h=100, tit="Palacio de Coral", cena=oceano)
-         peao = Elemento(PEAO, x=20, y=20, w=30, h=30, cena=oceano)
+         peao = Peao(oceano)
+
+class Peao:
+    def __init__(self, oceano):
+        self.peao = Elemento(PEAO, x=20, y=20, w=30, h=30, cena=oceano)
+        
+    def move():
+        pass
         
 IlhaProibida()
