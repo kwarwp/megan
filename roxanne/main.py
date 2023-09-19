@@ -1,6 +1,6 @@
 # megan.roxanne.main.py
 
-from _spy.vitaline.main import Cena, Elemento, STYLE
+from _spy.vitollino.main import Cena, Elemento, STYLE
 
 #STYLE["width"] = 800
 #STYLE["height"] = "600px"
@@ -12,7 +12,7 @@ PEAO = "https://lojagrow.vteximg.com.br/arquivos/ids/168597-1000-1000/Peao-Grow-
 
 class IlhaProibida:
     def __init__(self):
-         oceano = Cena(imagem).val()
+         oceano = Cena(imagem).vai()
          portao = Elemento(PORTAO_BRONZE, x=10, y=10, w=100, h=100, tit="Portao de Bronze", cena=oceano)
          palacio = Elemento(PALACIO_CORAL, x=120, y=30, w=100, h=100, tit="Palacio de Coral", cena=oceano)
          peao = Elemento(PEAO, x=20, y=20, w=30, h=30, cena=oceano)
