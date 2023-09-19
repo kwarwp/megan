@@ -15,13 +15,13 @@ class IlhaProibida:
          oceano = Cena(IMAGEM).vai()
          portao = Elemento(PORTAO_BRONZE, x=10, y=20, w=100, h=100, tit="Portao de Bronze", cena=oceano)
          palacio = Elemento(PALACIO_CORAL, x=120, y=20, w=100, h=100, tit="Palacio de Coral", cena=oceano)
-         peao = Peao(oceano)
+         self.peao = Peao(oceano)
 
 class Peao:
     def __init__(self, oceano):
-        self.peao = Elemento(PEAO, x=20, y=20, w=30, h=30, cena=oceano)
+        self.peao = Elemento(PEAO, x=20, y=20, w=30, h=30, cena=oceano, vai=self.move)
         
     def move():
-        pass
+        self.peao.x = 170
         
 IlhaProibida()
