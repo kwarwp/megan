@@ -2,7 +2,7 @@
 
 from _spy.vitollino.main import Cena, Elemento, STYLE
 
-SSTYLE["width"] = 800
+STYLE["width"] = 800
 STYLE["height"] = "600px"
 IMAGEM = "https://imgur.com/gVHmY2v.jpg"
 PORTAO_BRONZE = "https://imgur.com/BL6lB7H.jpg"
